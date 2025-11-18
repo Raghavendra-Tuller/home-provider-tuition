@@ -4,45 +4,52 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Subjects & Classes — Home Provider Tuition</title>
-<link rel="stylesheet" href="assets/css/styles.css" />
-
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
+
   <header class="site-header">
     <div class="container header-inner">
-      <h1 class="brand">Home Provider Tuition</h1>
+      <a class="brand" href="index.html">
+        <img src="https://img.freepik.com/premium-vector/home-logo-home-tuition-logo-vector-logo_987897-87.jpg" alt="logo" class="logo" />
+        <span>Home Provider Tuition</span>
+      </a>
+
       <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="subjects.html" aria-current="page">Subjects & Classes</a>
-        <a href="index.html#contact">Contact</a>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="subjects.html" class="nav-link active">Subjects & Classes</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#contact" class="nav-link btn-outline">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <section class="subjects">
-      <h2>Available Subjects</h2>
-      <ul class="subject-list">
-        <li>Commerce</li>
-        <li>science</li>
-        <li>Arts</li>
-        <li>General Competition</li>
-        <li>B.Ed Coaching</li>
-        <li>Mathematics</li>
-      </ul>
+  <main class="section subjects-page">
+    <div class="container">
+      <h1 class="section-title center reveal">Subjects We Offer</h1>
 
-      <h3>Class Coverage</h3>
-      <p>We provide tuition for Nursery through Class 12-one-on-one or small group sessions at the student's home.</p>
+      <div class="subject-grid">
+        <div class="subject-card reveal"><h3>Commerce</h3><p>Accountancy, Business Studies, Economics</p></div>
+        <div class="subject-card reveal"><h3>Humanities</h3><p>History, Geography, Political Science</p></div>
+        <div class="subject-card reveal"><h3>Arts</h3><p>Fine Arts, Creative Learning</p></div>
+        <div class="subject-card reveal"><h3>Mathematics</h3><p>From basics to advanced problem-solving</p></div>
+        <div class="subject-card reveal"><h3>B.Ed Coaching</h3><p>Pedagogy & exam preparation</p></div>
+        <div class="subject-card reveal"><h3>General Competition</h3><p>Foundation & strategy for competitive exams</p></div>
+      </div>
 
-      <h3>How to Enquire</h3>
-      <p>Return to the <a href="index.html#contact">contact section</a> on the homepage to fill out an enquiry.</p>
-    </section>
+      <div class="note reveal">
+        <p><strong>Coverage:</strong> Tuition available for Nursery through Class 12. To enquire, return to the <a href="index.html#contact">contact section</a> on the homepage.</p>
+      </div>
+    </div>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© 2025 Home Provider Tuition. Developed by Raghavendra Tuller.</p>
+      <div>© 2025 Home Provider Tuition</div>
+      <div class="credit">Developed by <strong>Raghavendra Tuller</strong></div>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
