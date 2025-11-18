@@ -2,7 +2,7 @@
 # Dev-intern assignment project 2 
 # Home Provider Tuition-Frontend (Project 2)
 
-**Mode:** Remote / Self-Learning  
+**Mode:** Remote/Self-Learning  
 **Project:** Frontend website for a tuition bureau (Nursery → Class 12)
 
 ## Summary
